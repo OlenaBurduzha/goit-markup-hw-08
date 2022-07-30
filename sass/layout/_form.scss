@@ -1,0 +1,89 @@
+.subscription {
+    display: block;
+
+    @media screen and (max-width:1199) {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-left: 93px;
+    }
+}
+
+.close-btn {
+    fill: currentColor;
+}
+
+.input-mail {
+ width: 100%;
+
+@media screen and (min-width:480) {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+ @media screen and (min-width: 1200px) {
+    width: 358px;
+    align-items:flex-start;
+ }
+}
+
+.mail-in {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 100%;
+    background-color: var(--footer-color);
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    padding: 15px 16px 15px 16px;
+    color: rgba(255, 255, 255, 0.6);
+
+   @media screen and (min-width: 480px){
+    width: 450px;
+    height: 50px;
+   }
+   @media screen and (min-width: 1200px) {
+       width: 358px;
+       height: 50px;
+    }
+ }
+   
+
+.svg-send {
+    margin-left: 10px;
+}
+
+//Кнопка "Підписатися"
+
+.subscription-btn {
+ width: 200px;
+ height: 50px;
+ padding: 10px 28px 10px 29px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ 
+ @media screen and (min-width:1200px) {
+    text-align: center;
+    margin-left: 12px;
+ }
+}

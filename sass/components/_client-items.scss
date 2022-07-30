@@ -1,0 +1,29 @@
+.clients__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    color: var(--icon-color);
+    
+    transition: color var(--anim-slow), border var(--anim-slow);
+    
+    width: 210px;
+    height: 92px;
+
+    @media screen and (min-width: 768px) {
+      width: 226px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 170px;
+    }
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        color: var(--accent-color);
+    }  
+}
+

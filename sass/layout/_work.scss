@@ -1,0 +1,34 @@
+.work {
+    display: none;
+
+    @media screen and (min-width:1200px) {
+    display: block;
+    }
+}
+
+.work__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.work__item {
+    position: relative;
+    width: 370px;
+}
+
+.work__text {
+    position: absolute;
+    bottom: 0;
+    padding: 27px 0;
+    width: 100%;
+    font-weight: 700;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-heder-color);
+    background-color: var(--background-label-color);
+}
+

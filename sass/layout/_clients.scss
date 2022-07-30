@@ -1,0 +1,17 @@
+
+.clients__container{
+ display: block;
+}
+
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    gap: 30px;
+}
+
+.clients__icon {
+    margin: 16px, 32px;
+    fill: currentColor;
+}

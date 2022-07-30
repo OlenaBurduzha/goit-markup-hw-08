@@ -1,0 +1,37 @@
+// загальне значення для кнопки в "Студія"
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: var(--accent-color);
+    color: var(--background-heder-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    font-family: inherit;
+    transition: color var(--anim-slow), background-color var(--anim-slow);
+
+    &:hover,
+    &:focus {
+        background-color: var(--hover-hero-button-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+  

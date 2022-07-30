@@ -1,0 +1,20 @@
+.social-media__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icon-color);
+    background-color: var(--background-heder-color);
+
+    transition: color var(--anim-slow), background-color var(--anim-slow);
+
+    &:hover,
+    &:focus {
+        color: var(--background-heder-color);
+        background-color: var(--accent-color);
+    }
+
+}

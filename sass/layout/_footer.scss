@@ -1,0 +1,115 @@
+/*footer*/
+
+.page-footer {
+    background: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+
+    @media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    }
+
+    @media screen and(min-width:1200px) {
+    display: flex;
+    align-items: baseline;
+    }
+}
+
+.input-mail{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media screen and(min-width:1200px) {
+        margin-right: 70px;
+        }
+}
+
+.address-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    @media screen and (min-width:1200px) {
+        gap: 9px;
+  }
+}
+.address-text {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    margin-top: 20px;
+    text-align: center;
+    @media screen and (max-width:1199px) {
+        margin-bottom: 60px;
+        }
+    // margin-bottom: 60px;
+}
+
+.address-link {
+    color: var(--background-heder-color);
+}
+
+
+.link-footer {
+    color: var(--color-contacts-address);
+
+    transition: color var(--anim-slow);
+}
+
+
+.footer-studio {
+    color: var(--background-heder-color);
+}
+
+.mail-adress {
+    margin-bottom: 9px;
+}
+
+.social {
+
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media screen and (max-width:1199px) {
+      margin-bottom: 60px;
+    }
+
+}
+
+.social-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--anim-slow);
+}
+
+.social-icon {
+    fill: var(--background-heder-color);
+}
+
+   

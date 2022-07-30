@@ -1,0 +1,54 @@
+// utils styles
+@import "./utils/var";
+@import "./utils/visually-hidden";
+
+
+// base styles
+@import "./base/common";
+@import "./base/reset";
+@import "./base/car-set";
+
+
+
+// components styles
+@import "./components/buttons";
+@import "./components/mobile-menu";
+@import "./components/container";
+@import "./components/section";
+@import "./components/logo";
+@import "./components/link";
+@import "./components/social-link";
+@import "./components/section-title";
+@import "./components/client-items";
+@import "./components/title";
+@import "./components/overlay";
+@import "./components/modal";
+@import "./components/portfolio-overlay";
+@import "./components/filter-button";
+@import "./components/modal-btn";
+
+
+
+
+
+// layout styles
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/social-media";
+@import "./layout/specialty";
+@import "./layout/work";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/form";
+@import "./layout/portfolio";
+@import "./layout/aplication-form";
+
+
+
+
+
+
+
+
+

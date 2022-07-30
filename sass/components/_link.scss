@@ -1,0 +1,14 @@
+.link
+ {  
+    
+    color: var(--color-contacts-address);
+
+    transition: color var(--anim-slow);
+
+   &:hover,
+   &:focus {
+    color: var(--accent-color);
+    }
+}
+
+
